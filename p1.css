@@ -1,0 +1,758 @@
+* a {
+    text-decoration: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+  }
+  :root {
+    --main-color: #00ced1;
+  }
+  .background {
+    background-image: url(img/backgraund.jpeg);
+    /* фоновое изображение: https://p2.piqsels.com/preview/404/292/966/laptop-notebook-macbook-pro.jpg
+      режим доступа: 29.10.2020 20-00 */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-block {
+    padding: 20px;
+    text-align: right;
+  }
+  .menu-item {
+    color: black;
+    margin: 0 15px 0 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .menu-item:hover {
+    background-color: var(--main-color);
+  }
+  .color-text {
+    color: var(--main-color);
+  }
+  .experience {
+    width: 40%;
+    padding: 150px 0 0 55%;
+  }
+  .banner-block {
+    width: 40%;
+    padding: 0 0 15px 55%;
+    font-size: 20px;
+  }
+  .button {
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: var(--main-color);
+    font-weight: bold;
+    margin-left: 55%;
+    cursor: pointer;
+    margin-bottom: 250px;
+  }
+  .header-item {
+    list-style-type: none;
+    display: inline;
+  }
+  .info-block {
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+  }
+  .statistics-block {
+    background-image: url(img/branch.png);
+    /* фоновое изображение: https://images.unsplash.com/photo-1494319827402-c4b839aed26b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+      режим доступа: 04.11.2020 00-20 */
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 120px 100px 100px;
+  }
+  .about {
+    font-size: 40px;
+  }
+  .signature {
+    height: 81px;
+    width: 290px;
+    margin-bottom: 110px;
+  }
+  .skills {
+    font-size: 40px;
+  }
+  progress {
+    width: 35%;
+    height: 3px;
+    background-color: var(--main-color);
+    margin: 10px 10px 20px 0;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  progress::-webkit-progress-value {
+    background: var(--main-color);
+  }
+  progress::-moz-progress-bar {
+    background: var(--main-color);
+  }
+  progress {
+    color: var(--main-color);
+  }
+  .icon-block {
+    background-color: var(--main-color);
+    color: white;
+  }
+  .statistics-icon {
+    padding: 60px 10px 60px 100px;
+    font-size: 50px;
+    display: inline-block;
+  }
+  .icon-items {
+    display: inline-block;
+  }
+  .text {
+    display: inline-block;
+    margin: auto;
+  }
+  .quantity {
+    font-size: 20px;
+    display: table;
+  }
+  .image-block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image-block img {
+    width: 25%;
+  }
+  .note {
+    font-size: 25px;
+    padding-top: 70px;
+    background-color: lightgray;
+    text-align: center;
+    height: 100px;
+  }
+  .note-item {
+    color: black;
+  }
+  .work-process {
+    background-color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .text-process {
+    width: 45%;
+    margin: auto;
+  }
+  .video {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .capabilities {
+    background-color: lightgray;
+  }
+  .capabilities-icon {
+    padding: 80px 10px 80px 100px;
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+  }
+  .quantity {
+    font-size: 15px;
+    display: block;
+  }
+  .title {
+    font-size: 15px;
+    display: block;
+  }
+  .studio-block {
+    background-color: var(--main-color);
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .about-studio {
+    width: 60%;
+    margin: auto;
+  }
+  .pagination {
+    display: inline-block;
+  }
+  .pagination a {
+    color: white;
+    float: left;
+    padding: 80px 10px 60px 10px;
+    font-size: 15px;
+  }
+  .pagination:hover {
+    transform: scale(1.1);
+  }
+  .brend-images img {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .offer-project {
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .offer {
+    font-size: 35px;
+  }
+  .offer-text {
+    width: 38%;
+    margin: auto;
+  }
+  .name {
+    margin: 30px 0 20px 0;
+    width: 21.3%;
+    height: 35px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .email {
+    margin-bottom: 20px;
+    margin: auto;
+    width: 21.3%;
+    height: 35px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .you_title {
+    margin: auto;
+    width: 43%;
+    height: 35px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .textarea {
+    height: 130px;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    width: 43%;
+    resize: none;
+    box-sizing: border-box;
+  }
+  .send-message {
+    border: none;
+    background-color: var(--main-color);
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin: 20px 0 100px 0;
+    cursor: pointer;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    font-size: 14pt;
+  }
+  .footer p {
+    margin: 0;
+  }
+  .piroll {
+    display: inline-block;
+    color: white;
+    padding: 60px 250px 0 10px;
+  }
+  .piroll-bold {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .piroll-item {
+    padding-top: 20px;
+  }
+  .contacts {
+    vertical-align: top;
+    display: inline-block;
+    margin: 60px 150px 0 0;
+    padding-bottom: 50px;
+  }
+  .project-list {
+    display: inline-block;
+  }
+  .different {
+    display: inline-block;
+  }
+  .messengers {
+    display: inline-block;
+    padding-left: 100px;
+  }
+  .column {
+    display: block;
+  }
+  .info-skills {
+    background-color: lightgray;
+    height: 270px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .info-skills-amelia {
+    background-color: rgba(58, 58, 158, 0.8);
+    background-image: linear-gradient(
+        115deg,
+        rgba(61, 61, 65, 0.8),
+        rgba(87, 87, 94, 0.7)
+      ),
+      url(img/img10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 300px;
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .banner-ravings {
+    background-image: url(img/img11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 25px 855px;
+    font-size: 20px;
+  }
+  .offer-projects {
+    height: 320px;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .button-offer {
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: var(--main-color);
+    font-weight: bold;
+    margin: 30px auto;
+    cursor: pointer;
+  }
+  .breakfast {
+    background-color: lightgray;
+    height: 500px;
+  }
+  .photo-breakfast {
+    float: right;
+    width: 50%;
+  }
+  .light-breakfast {
+    padding: 100px 0 0 40px;
+  }
+  .light {
+    padding-left: 40px;
+    margin-bottom: 10px;
+  }
+  .info-client {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .client {
+    font-weight: bold;
+  }
+  .pagination-nav {
+    width: 100%;
+    height: 100px;
+  }
+  .nav-links {
+    text-align: center;
+    padding-top: 35px;
+  }
+  .pagination-links {
+    color: black;
+    font-size: 16px;
+  }
+  .previous {
+    float: left;
+    display: inline;
+  }
+  .icon-link {
+    display: inline;
+  }
+  .next {
+    float: right;
+    display: inline;
+  }
+  .contact-info {
+    background-color: lightgray;
+    height: 600px;
+  }
+  .contact-form-info {
+    padding-top: 100px;
+    height: 500px;
+    float: right;
+    width: 50%;
+  }
+  .contact-info-text {
+    padding: 100px 0 0 40px;
+  }
+  .map {
+    width: 90%;
+    height: 500px;
+    margin: 70px auto;
+  }
+  @media screen and (max-width: 500px) {
+    .background {
+      background-color: darkgray;
+      background-image: none;
+    }
+    .header-block ul li a {
+      padding: 5px 0 0px 0;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+    .header-block ul {
+      padding: 0;
+    }
+    .experience {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .banner-block {
+      padding: 0 10px 20px 0px;
+      width: 100%;
+      text-align: center;
+    }
+    .button {
+      margin: 30px 40px;
+    }
+    .info-block {
+      width: 90%;
+      padding: 10px;
+    }
+    .signature {
+      margin: 0;
+    }
+    .text-process {
+      width: 90%;
+    }
+    .studio-block {
+      padding: 20px 0;
+    }
+    .about-studio {
+      width: 90%;
+    }
+    .pagination a {
+      padding: 20px;
+    }
+    .statistics-block {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .statistics-icon {
+      padding: 5px 0 10px;
+    }
+    .skills {
+      font-size: 35px;
+    }
+    progress {
+      width: 85%;
+    }
+    .capabilities {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .capabilities-icon {
+      padding: 5px 0 10px;
+    }
+    .offer-text {
+      width: 90%;
+    }
+    .name {
+      width: 42.6%;
+    }
+    .email {
+      width: 42.6%;
+    }
+    .you_title {
+      width: 86%;
+    }
+    .textarea {
+      width: 86%;
+    }
+    .send-message {
+      margin: 30px 0 50px;
+    }
+    .footer {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .piroll {
+      padding: 0;
+    }
+    .contacts {
+      margin-right: 20px;
+    }
+    .footer ul {
+      padding: 0;
+    }
+    .project-list {
+      padding: 0;
+    }
+    .messengers {
+      padding: 0;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .background {
+      background-color: darkgray;
+      background-image: none;
+    }
+    .header-block ul li a {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+    .header-block ul {
+      padding: 0;
+    }
+    .experience {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .banner-block {
+      padding: 0 10px 20px 0px;
+      width: 95%;
+      text-align: center;
+    }
+    .button {
+      margin: 30px 40px;
+    }
+    .info-block {
+      width: 90%;
+      padding: 10px;
+    }
+    .signature {
+      margin: 0;
+    }
+    .text-process {
+      width: 90%;
+    }
+    .studio-block {
+      padding: 20px 0;
+    }
+    .about-studio {
+      width: 90%;
+    }
+    .pagination a {
+      padding: 20px;
+    }
+    .statistics-block {
+      background-image: url(img/branch.png);
+      padding: 10px;
+    }
+    .skills {
+      font-size: 35px;
+    }
+    progress {
+      width: 85%;
+    }
+    .capabilities {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .capabilities-icon {
+      padding: 5px 0 10px;
+    }
+    .offer-text {
+      width: 90%;
+    }
+    .name {
+      width: 42.6%;
+    }
+    .email {
+      width: 42.6%;
+    }
+    .you_title {
+      width: 86%;
+    }
+    .textarea {
+      width: 86%;
+    }
+    .send-message {
+      margin: 30px 0 50px;
+    }
+    .footer {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .piroll {
+      margin-top: 30px;
+      padding: 0;
+    }
+    .contacts {
+      margin-right: 20px;
+    }
+    .project-list {
+      text-align: center;
+    }
+    .different {
+      text-align: center;
+    }
+    .messengers {
+      padding: 0;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .background {
+      background-color: darkgray;
+      background-image: none;
+    }
+    .header-block ul li a {
+      padding: 5px 0 0px 0;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+    .header-block ul {
+      padding: 0;
+    }
+    .experience {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .banner-block {
+      padding: 0 10px 20px 0px;
+      width: 95%;
+      text-align: center;
+    }
+    .button {
+      margin: 30px 40px;
+    }
+    .info-block {
+      width: 90%;
+      padding: 10px;
+    }
+    .signature {
+      margin: 0;
+    }
+    .text-process {
+      width: 90%;
+    }
+    .studio-block {
+      padding: 20px 0;
+    }
+    .about-studio {
+      width: 90%;
+    }
+    .pagination a {
+      padding: 20px;
+    }
+    .statistics-block {
+      background-image: url(img/branch.png);
+      padding: 10px;
+    }
+    .statistics-icon {
+        padding: 10px;
+    }
+    .skills {
+      font-size: 35px;
+    }
+    progress {
+      width: 85%;
+    }
+    .capabilities {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .offer-text {
+      width: 90%;
+    }
+    .capabilities-icon {
+      padding: 5px 0 10px;
+    }
+    .name {
+      width: 42.6%;
+    }
+    .email {
+      width: 42.6%;
+    }
+    .you_title {
+      width: 86%;
+    }
+    .textarea {
+      width: 86%;
+    }
+    .send-message {
+      margin: 30px 0 50px;
+    }
+    .piroll {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+    .contacts {
+      margin: 20px;
+      display: inline;
+      text-align: center;
+    }
+    .project-list {
+      text-align: center;
+      display: inline-block;
+    }
+    .different {
+      text-align: center;
+      display: inline-block;
+    }
+    .messengers {
+      float: right;
+      text-align: center;
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .piroll {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+    .contacts {
+      margin: 20px;
+      display: inline;
+      text-align: center;
+    }
+    .project-list {
+      text-align: center;
+      display: inline-block;
+    }
+    .different {
+      text-align: center;
+      display: inline-block;
+    }
+    .messengers {
+      text-align: center;
+      margin: 0;
+      float: right;
+    }
+  }
+  
+  
